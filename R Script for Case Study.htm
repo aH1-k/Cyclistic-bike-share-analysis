@@ -1,0 +1,2069 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="R%20Script%20for%20Case%20Study_files/filelist.xml">
+<link rel=Preview href="R%20Script%20for%20Case%20Study_files/preview.wmf">
+<title>R Script for Case Study</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>ADIMULAM HIMA SANKAR</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>ADIMULAM HIMA SANKAR</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2023-01-06T16:24:00Z</o:Created>
+  <o:LastSaved>2023-01-06T16:24:00Z</o:LastSaved>
+  <o:Pages>9</o:Pages>
+  <o:Words>1788</o:Words>
+  <o:Characters>10196</o:Characters>
+  <o:Lines>84</o:Lines>
+  <o:Paragraphs>23</o:Paragraphs>
+  <o:CharactersWithSpaces>11961</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="R%20Script%20for%20Case%20Study_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="R%20Script%20for%20Case%20Study_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:DoNotOptimizeForBrowser/>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	mso-ansi-language:EN;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:20.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:20.0pt;
+	font-family:"Arial",sans-serif;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h2
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"Arial",sans-serif;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h3
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:16.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;
+	color:#434343;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h4
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h5
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h6
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:26.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	mso-ansi-language:EN;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:16.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	color:#666666;
+	mso-ansi-language:EN;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Arial",sans-serif;
+	mso-ascii-font-family:Arial;
+	mso-fareast-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-page-numbers:1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-ansi-language:EN;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-IN style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span lang=EN style='font-size:16.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                           </span><b>R Code for Case Study
+Roadmap<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>### <span class=SpellE>Divvy_Exercise_Full_Year_Analysis</span>
+###<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># This analysis is based on the Divvy case
+study &quot;'Sophisticated, Clear, and Polished’: Divvy and Data
+Visualization&quot; written by Kevin Hartman (found here:
+https://artscience.blog/home/divvy-dataviz-case-study). The purpose of this
+script is to consolidate downloaded Divvy data into a single <span
+class=SpellE>dataframe</span> and then conduct simple analysis to help answer
+the key question: “In what ways do members and casual riders use Divvy bikes
+differently?”<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># # # # # # # # # # # # # # # # # # # # #
+# # <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Install required packages<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># <span class=SpellE><span class=GramE>tidyverse</span></span>
+for data import and wrangling<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># <span class=SpellE><span class=GramE>lubridate</span></span>
+for date functions<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># <span class=SpellE><span class=GramE>ggplot</span></span>
+for visualization<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># # # # # # # # # # # # # # # # # # # # #
+# #<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:357.3pt'><span lang=EN style='font-size:
+14.0pt;line-height:115%;font-family:"Times New Roman",serif'>library(<span
+class=SpellE><span class=GramE>tidyverse</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>helps wrangle data<span
+style='mso-tab-count:1'>                                       </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>library(<span class=SpellE><span
+class=GramE>lubridate</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>helps wrangle date attributes<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>library(ggplot2<span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>helps visualize data<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman",serif'>getwd</span></span></span><span
+class=GramE><span lang=EN style='font-size:14.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>(</span></span><span lang=EN style='font-size:14.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>) #displays your working
+directory<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:14.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>setwd</span></span><span
+lang=EN style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman",serif'>(&quot;/Users/<span
+class=SpellE>kevinhartman</span>/Desktop/<span class=SpellE>Divvy_Exercise</span>/csv&quot;)
+#sets your working directory to simplify calls to data ... make sure to use
+your OWN username instead of mine ;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=====================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># STEP 1: COLLECT DATA<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=====================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Upload Divvy datasets (csv files) here<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q2_2019 &lt;- <span class=SpellE>read_csv</span>(&quot;Divvy_Trips_2019_Q2.csv&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q3_2019 &lt;- <span class=SpellE>read_csv</span>(&quot;Divvy_Trips_2019_Q3.csv&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q4_2019 &lt;- <span class=SpellE>read_csv</span>(&quot;Divvy_Trips_2019_Q4.csv&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:14.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q1_2020 &lt;- <span class=SpellE>read_csv</span>(&quot;Divvy_Trips_2020_Q1.csv&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#====================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># STEP 2: WRANGLE DATA AND COMBINE INTO A
+SINGLE FILE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#====================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Compare column names each of the files<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># While the names don't have to be in the
+same order, they DO need to match perfectly before we can use a command to join
+them into one file<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>colnames</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(q3_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>colnames</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(q4_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>colnames</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(q2_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>colnames</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(q1_2020)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Rename <span class=GramE>columns<span
+style='mso-spacerun:yes'>  </span>to</span> make them consistent with q1_2020
+(as this will be the supposed going-forward table design for Divvy)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>(q4_2019 &lt;- <span class=GramE>rename(</span>q4_2019<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ride</span></span><span class=SpellE>_id</span> = <span
+class=SpellE>trip_id</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = <span
+class=SpellE>bikeid</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>started</span></span><span class=SpellE>_at</span> = <span
+class=SpellE>start_time</span><span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ended</span></span><span class=SpellE>_at</span> = <span
+class=SpellE>end_time</span><span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_name</span> = <span
+class=SpellE>from_station_name</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_id</span> = <span
+class=SpellE>from_station_id</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_name</span> = <span
+class=SpellE>to_station_name</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_id</span> = <span
+class=SpellE>to_station_id</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>member</span></span><span class=SpellE>_casual</span> = <span
+class=SpellE>usertype</span>))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>(q3_2019 &lt;- <span class=GramE>rename(</span>q3_2019<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ride</span></span><span class=SpellE>_id</span> = <span
+class=SpellE>trip_id</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = <span
+class=SpellE>bikeid</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>started</span></span><span class=SpellE>_at</span> = <span
+class=SpellE>start_time</span><span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ended</span></span><span class=SpellE>_at</span> = <span
+class=SpellE>end_time</span><span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_name</span> = <span
+class=SpellE>from_station_name</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_id</span> = <span
+class=SpellE>from_station_id</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_name</span> = <span
+class=SpellE>to_station_name</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_id</span> = <span
+class=SpellE>to_station_id</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>member</span></span><span class=SpellE>_casual</span> = <span
+class=SpellE>usertype</span>))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>(q2_2019 &lt;- <span class=GramE>rename(</span>q2_2019<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ride</span></span><span class=SpellE>_id</span> = &quot;01 -
+Rental Details Rental ID&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = &quot;01 -
+Rental Details Bike ID&quot; <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>started</span></span><span class=SpellE>_at</span> = &quot;01 -
+Rental Details Local Start Time&quot;<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>ended</span></span><span class=SpellE>_at</span> = &quot;01 -
+Rental Details Local End Time&quot;<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_name</span> =
+&quot;03 - Rental Start Station Name&quot; <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>start</span></span><span class=SpellE>_station_id</span> =
+&quot;03 - Rental Start Station ID&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_name</span> =
+&quot;02 - Rental End Station Name&quot; <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>end</span></span><span class=SpellE>_station_id</span> = &quot;02
+- Rental End Station ID&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>member</span></span><span class=SpellE>_casual</span> = &quot;User
+Type&quot;))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Inspect the <span class=SpellE>dataframes</span>
+and look for incongruencies<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(q1_2020)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(q4_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(q3_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(q2_2019)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Convert <span class=SpellE>ride_id</span>
+and <span class=SpellE>rideable_type</span> to character so that they can stack
+correctly<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q4_2019 &lt;<span class=GramE>-<span
+style='mso-spacerun:yes'>  </span>mutate</span>(q4_2019, <span class=SpellE>ride_id</span>
+= <span class=SpellE>as.character</span>(<span class=SpellE>ride_id</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = <span
+class=SpellE>as.character</span>(<span class=SpellE>rideable_type</span>)) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q3_2019 &lt;<span class=GramE>-<span
+style='mso-spacerun:yes'>  </span>mutate</span>(q3_2019, <span class=SpellE>ride_id</span>
+= <span class=SpellE>as.character</span>(<span class=SpellE>ride_id</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = <span
+class=SpellE>as.character</span>(<span class=SpellE>rideable_type</span>)) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>q2_2019 &lt;<span class=GramE>-<span
+style='mso-spacerun:yes'>  </span>mutate</span>(q2_2019, <span class=SpellE>ride_id</span>
+= <span class=SpellE>as.character</span>(<span class=SpellE>ride_id</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                   </span><span class=GramE>,<span
+class=SpellE>rideable</span></span><span class=SpellE>_type</span> = <span
+class=SpellE>as.character</span>(<span class=SpellE>rideable_type</span>)) <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Stack individual quarter's data frames
+into one big data frame<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- <span class=SpellE>bind_<span class=GramE>rows</span></span><span
+class=GramE>(</span>q2_2019, q3_2019, q4_2019, q1_2020)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Remove <span class=SpellE>lat</span>,
+long, birthyear, and gender fields as this data was dropped beginning in 2020<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- <span class=SpellE>all_trips</span> %&gt;%<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>select(</span>-c(<span class=SpellE>start_lat</span>, <span
+class=SpellE>start_lng</span>, <span class=SpellE>end_lat</span>, <span
+class=SpellE>end_lng</span>, birthyear, gender, &quot;01 - Rental Details
+Duration In Seconds Uncapped&quot;, &quot;05 - Member Details Member Birthday
+Year&quot;, &quot;Member Gender&quot;, &quot;<span class=SpellE>tripduration</span>&quot;))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#======================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># STEP 3: CLEAN UP AND ADD DATA TO PREPARE
+FOR ANALYSIS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#======================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Inspect the new table that has been
+created<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>colnames</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(<span
+class=SpellE>all_<span class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>List of column names<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>nrow</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(<span
+class=SpellE>all_<span class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>How many rows are in data frame?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>dim(<span class=SpellE>all_<span
+class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>Dimensions of the data frame?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>head(<span class=SpellE>all_<span
+class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>See the first 6 rows of data
+frame.<span style='mso-spacerun:yes'>  </span>Also tail(<span class=SpellE>all_trips</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(<span class=SpellE>all_<span
+class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>See list of columns and data types
+(numeric, character, <span class=SpellE>etc</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>summary(<span class=SpellE>all_<span
+class=GramE>trips</span></span><span class=GramE>)<span
+style='mso-spacerun:yes'>  </span>#</span>Statistical summary of data. Mainly
+for <span class=SpellE>numerics</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># There are a few problems we will need to
+fix:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># (1) In the &quot;<span class=SpellE>member_casual</span>&quot;
+column, there are two names for members (&quot;member&quot; and
+&quot;Subscriber&quot;) and two names for casual riders (&quot;Customer&quot;
+and &quot;casual&quot;). We will need to consolidate that from four to two
+labels.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># (2) The data can only be aggregated at
+the ride-level, which is too granular. We will want to add some additional
+columns of data -- such as day, month, year -- that provide additional
+opportunities to aggregate the data.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># (3) We will want to add a calculated
+field for length of ride since the 2020Q1 data did not have the &quot;<span
+class=SpellE>tripduration</span>&quot; column. We will add &quot;<span
+class=SpellE>ride_length</span>&quot; to the entire <span class=SpellE>dataframe</span>
+for consistency.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># (4) There are some rides where <span
+class=SpellE>tripduration</span> shows up as negative, including several
+hundred rides where Divvy took bikes out of circulation for Quality Control
+reasons. We will want to delete these rides.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># In the &quot;<span class=SpellE>member_casual</span>&quot;
+column, replace &quot;Subscriber&quot; with &quot;member&quot; and
+&quot;Customer&quot; with &quot;casual&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Before 2020, Divvy used different labels
+for these two types of riders ... we will want to make our <span class=SpellE>dataframe</span>
+consistent with their current nomenclature<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># N.B.: &quot;Level&quot; is a special
+property of a column that is retained even if a subset does not contain any
+values from a specific level<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Begin by seeing how many observations
+fall under each <span class=SpellE>usertype</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>table(<span class=SpellE>all_trips$member_casual</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Reassign to the desired values (we will
+go with the current 2020 labels)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;<span class=GramE>-<span style='mso-spacerun:yes'>  </span><span
+class=SpellE>all</span></span><span class=SpellE>_trips</span> %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>mutate(</span><span class=SpellE>member_casual</span> = recode(<span
+class=SpellE>member_casual</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:13.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                           </span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>,&quot;Subscriber&quot;
+= &quot;member&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                          
+</span>,&quot;Customer&quot; = &quot;casual&quot;))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:13.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Check to make sure the proper number of
+observations were reassigned<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>table(<span class=SpellE>all_trips$member_casual</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Add columns that list the date, month,
+day, and year of each ride<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># This will allow us to aggregate ride
+data for each month, day, or year ... before completing these operations we
+could only aggregate at the ride level<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#
+https://www.statmethods.net/input/dates.html more on date formats in R found at
+that link<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$date</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- <span class=SpellE><span class=GramE>as.Date</span></span>(<span
+class=SpellE>all_trips$started_at</span>) #The default format is <span
+class=SpellE>yyyy</span>-mm-dd<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$month</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- format(<span class=SpellE><span class=GramE>as.Date</span></span>(<span
+class=SpellE>all_trips$date</span>), &quot;%m&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$day</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- format(<span class=SpellE><span class=GramE>as.Date</span></span>(<span
+class=SpellE>all_trips$date</span>), &quot;%d&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$year</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- format(<span class=SpellE><span class=GramE>as.Date</span></span>(<span
+class=SpellE>all_trips$date</span>), &quot;%Y&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$day_of_week</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- format(<span class=SpellE><span class=GramE>as.Date</span></span>(<span
+class=SpellE>all_trips$date</span>), &quot;%A&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Add a &quot;<span class=SpellE>ride_length</span>&quot;
+calculation to <span class=SpellE>all_trips</span> (in seconds)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#
+https://stat.ethz.ch/R-manual/R-devel/library/base/html/difftime.html<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$ride_length</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- <span class=SpellE>difftime</span>(<span class=SpellE>all_trips$ended_<span
+class=GramE>at,all</span>_trips$started_at</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Inspect the structure of the columns<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>str(<span class=SpellE>all_trips</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Convert &quot;<span class=SpellE>ride_length</span>&quot;
+from Factor to numeric so we can run calculations on the data<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>is.factor</span></span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(<span
+class=SpellE>all_trips$ride_length</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>all_trips$ride_length</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+&lt;- <span class=SpellE><span class=GramE>as.numeric</span></span>(<span
+class=SpellE>as.character</span>(<span class=SpellE>all_trips$ride_length</span>))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>is.numeric</span></span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>(<span
+class=SpellE>all_trips$ride_length</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Remove &quot;bad&quot; data<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># The <span class=SpellE>dataframe</span>
+includes a few hundred entries when bikes were taken out of docks and checked
+for quality by Divvy or <span class=SpellE>ride_length</span> was negative<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># We will create a new version of the <span
+class=SpellE>dataframe</span> (v2) since data is being removed<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># https://www.datasciencemadesimple.com/delete-or-drop-rows-in-r-with-conditions-2/<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>all_trips_v2 &lt;- <span class=SpellE>all_<span
+class=GramE>trips</span></span><span class=GramE>[</span>!(<span class=SpellE>all_trips$start_station_name</span>
+== &quot;HQ QR&quot; | <span class=SpellE>all_trips$ride_length</span>&lt;0),]<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=====================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># STEP 4: CONDUCT DESCRIPTIVE ANALYSIS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=====================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Descriptive analysis on <span
+class=SpellE>ride_length</span> (all figures in seconds)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>mean(all_trips_v2$ride_length) #straight
+average (total ride length / rides)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>median(all_trips_v2$ride_length) #midpoint
+number in the ascending array of ride lengths<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>max(all_trips_v2$ride_length) #longest
+ride<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>min(all_trips_v2$ride_length) #shortest
+ride<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># You can condense the four lines above to
+one line using <span class=GramE>summary(</span>) on the specific attribute<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>summary(all_trips_v2$ride_length)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Compare members and casual users<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual, FUN = mean)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual, FUN = median)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual, FUN = max)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual, FUN = min)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># See the average ride time by each day
+for members vs casual users<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Notice that the days of the week are out
+of order. Let's fix that.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>all_trips_v2$day_of_week &lt;- <span
+class=GramE>ordered(</span>all_trips_v2$day_of_week,
+levels=c(&quot;Sunday&quot;, &quot;Monday&quot;, &quot;Tuesday&quot;,
+&quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;,
+&quot;Saturday&quot;))<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Now, let's run the average ride time by
+each day for members vs casual users<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>aggregate(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>all_trips_v2$ride_length
+~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># <span class=GramE>analyze</span>
+ridership data by type and weekday<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>all_trips_v2 %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>mutate(</span>weekday = <span class=SpellE>wday</span>(<span
+class=SpellE>started_at</span>, label = TRUE)) %&gt;%<span
+style='mso-spacerun:yes'>  </span>#creates weekday field using <span
+class=SpellE>wday</span>()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE>group_<span class=GramE>by</span></span><span class=GramE>(</span><span
+class=SpellE>member_casual</span>, weekday) %&gt;%<span
+style='mso-spacerun:yes'>  </span>#groups by <span class=SpellE>usertype</span>
+and weekday<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE><span class=GramE>summarise</span></span><span class=GramE>(</span><span
+class=SpellE>number_of_rides</span> = n()<span style='mso-tab-count:6'>                                                               </span><span
+style='mso-tab-count:1'>            </span>#calculates the number of rides and
+average duration <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>,<span class=SpellE>average</span></span><span class=SpellE>_duration</span>
+= mean(<span class=SpellE>ride_length</span>)) %&gt;% <span style='mso-tab-count:
+2'>                   </span># calculates the average duration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>arrange(</span><span class=SpellE>member_casual</span>, weekday)<span
+style='mso-tab-count:7'>                                                                          </span><span
+style='mso-tab-count:1'>            </span># sorts<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Let's visualize the number of rides by
+rider type<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>all_trips_v2 %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>mutate(</span>weekday = <span class=SpellE>wday</span>(<span
+class=SpellE>started_at</span>, label = TRUE)) %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE>group_<span class=GramE>by</span></span><span class=GramE>(</span><span
+class=SpellE>member_casual</span>, weekday) %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE><span class=GramE>summarise</span></span><span class=GramE>(</span><span
+class=SpellE>number_of_rides</span> = n()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>           
+</span><span class=GramE>,<span class=SpellE>average</span></span><span
+class=SpellE>_duration</span> = mean(<span class=SpellE>ride_length</span>))
+%&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>arrange(</span><span class=SpellE>member_casual</span>,
+weekday)<span style='mso-spacerun:yes'>  </span>%&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE><span class=GramE>ggplot</span></span><span class=GramE>(</span><span
+class=SpellE>aes</span>(x = weekday, y = <span class=SpellE>number_of_rides</span>,
+fill = <span class=SpellE>member_casual</span>)) +<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE>geom_<span class=GramE>col</span></span><span class=GramE>(</span>position
+= &quot;dodge&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Let's create a visualization for average
+duration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>all_trips_v2 %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>mutate(</span>weekday = <span class=SpellE>wday</span>(<span
+class=SpellE>started_at</span>, label = TRUE)) %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE>group_<span class=GramE>by</span></span><span class=GramE>(</span><span
+class=SpellE>member_casual</span>, weekday) %&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE><span class=GramE>summarise</span></span><span class=GramE>(</span><span
+class=SpellE>number_of_rides</span> = n()<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>           
+</span><span class=GramE>,<span class=SpellE>average</span></span><span
+class=SpellE>_duration</span> = mean(<span class=SpellE>ride_length</span>))
+%&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=GramE>arrange(</span><span class=SpellE>member_casual</span>,
+weekday)<span style='mso-spacerun:yes'>  </span>%&gt;% <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE><span class=GramE>ggplot</span></span><span class=GramE>(</span><span
+class=SpellE>aes</span>(x = weekday, y = <span class=SpellE>average_duration</span>,
+fill = <span class=SpellE>member_casual</span>)) +<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>  </span><span
+class=SpellE>geom_<span class=GramE>col</span></span><span class=GramE>(</span>position
+= &quot;dodge&quot;)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># STEP 5: EXPORT SUMMARY FILE FOR FURTHER
+ANALYSIS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>#=================================================<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># Create a csv file that we will visualize
+in Excel, Tableau, or my presentation software<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'># N.B.: This file location is for a Mac.
+If you are working on a PC, change the file location accordingly (most likely
+&quot;C:\Users\YOUR_USERNAME\Desktop\...&quot;) to export the data. You can
+read more here: https://datatofish.com/export-dataframe-to-csv-in-r/<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>counts &lt;- <span class=GramE>aggregate(</span>all_trips_v2$ride_length
+~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>write.csv(</span></span><span
+lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>counts,
+file = '~/Desktop/<span class=SpellE>Divvy_Exercise</span>/avg_ride_length.csv')<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span lang=EN style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>                                       </span>#You're
+done! Congratulations!<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
